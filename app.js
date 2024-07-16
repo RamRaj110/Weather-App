@@ -98,24 +98,24 @@ function updateWeather(data) {
 }
 function updateImg(weatherMain) {
   const imgPaths = {
-    Clear: "./img/clearsky.jpg",
-    Clouds: "./img/brokencloud.jpg",
-    Rain: "./img/rainy.jpg",
-    Snow: "./img/snow.jpg",
-    Thunderstorm: "./img/thunderstorm.jpg",
-    Drizzle: "./img/rainy.jpg",
-    Mist: "./img/haze.jpg",
-    Smoke: "./img/haze.jpg",
-    Haze: "./img/haze.jpg",
-    Dust: "./img/haze.jpg",
-    Fog: "./img/haze.jpg",
-    Sand: "./img/haze.jpg",
-    Ash: "./img/haze.jpg",
-    Squall: "./img/wind.jpg",
-    Tornado: "./img/wind.jpg",
+    Clear: "./Img/clearsky.jpg",
+    Clouds: "./Img/brokencloud.jpg",
+    Rain: "./Img/rainy.jpg",
+    Snow: "./Img/snow.jpg",
+    Thunderstorm: "./Img/thunderstorm.jpg",
+    Drizzle: "./Img/rainy.jpg",
+    Mist: "./Img/haze.jpg",
+    Smoke: "./Img/haze.jpg",
+    Haze: "./Img/haze.jpg",
+    Dust: "./Img/haze.jpg",
+    Fog: "./Img/haze.jpg",
+    Sand: "./Img/haze.jpg",
+    Ash: "./Img/haze.jpg",
+    Squall: "./Img/wind.jpg",
+    Tornado: "./Img/wind.jpg",
   };
 
-  const imgPath = imgPaths[weatherMain] || "./img/cloudly.jpg";
+  const imgPath = imgPaths[weatherMain] || "./Img/cloudly.jpg";
   // console.log(imgPath);
   document.body.style.backgroundImage = `url(${imgPath})`;
  
