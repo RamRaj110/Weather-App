@@ -18,7 +18,7 @@ let searchHistory = [];
 
 // Load search history from local storage on page load
 document.addEventListener("DOMContentLoaded", () => {
-  document.body.style.backgroundImage = "url('./img/cloudly.jpg')";
+  document.body.style.backgroundImage = "url('./Img/cloudly.jpg')";
   loadSearchHistory();
   updateSearchHistoryUI();
 });
